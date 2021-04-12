@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/defaut_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Orange">
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_page_upload_button"
+            android:backgroundTint="@color/Orange"
+            android:textColor="@color/White"
+            android:padding="@dimen/item_margin"
+            style="@style/TitleTextStyle"/>
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/outils"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/defaut_margin"
+        android:hint="@string/add_page_name"
+        android:paddingLeft="@dimen/item_margin"
+        style="@style/DefaultTextStyle" />
+
+    <Spinner
+        android:id="@+id/niveau_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_page_niveau_spinner_input"
+        android:paddingLeft="@dimen/defaut_margin" />
+
+    <Spinner
+        android:id="@+id/zone_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_page_zone_spinner_input"
+        android:paddingLeft="@dimen/defaut_margin" />
+
+    <EditText
+        android:id="@+id/salle_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_page_salle"
+        android:paddingLeft="@dimen/defaut_margin"
+        style="@style/DefaultTextStyle" />
+
+    <EditText
+        android:id="@+id/materiel_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_page_materiel"
+        android:paddingLeft="@dimen/defaut_margin"
+        style="@style/DefaultTextStyle" />
+
+    <Spinner
+        android:id="@+id/categorie_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_page_categorie_spinner_input"
+        android:paddingLeft="@dimen/defaut_margin" />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_page_description"
+        android:paddingLeft="@dimen/defaut_margin"
+        style="@style/DefaultTextStyle" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/Green"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/add_page_confirm_button"/>
+</LinearLayout>

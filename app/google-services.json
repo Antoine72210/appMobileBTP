@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063437185037",
+    "project_id": "maintenancecesi",
+    "storage_bucket": "maintenancecesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063437185037:android:a3329aab5cdb4576236544",
+        "android_client_info": {
+          "package_name": "fr.antoine.maintenancecesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063437185037-0fon0mm03djhlcujcvjc2she14m2pvh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElR7OmhuHoKxMPWGvFQM_ZOJfFuR1OW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063437185037-0fon0mm03djhlcujcvjc2she14m2pvh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

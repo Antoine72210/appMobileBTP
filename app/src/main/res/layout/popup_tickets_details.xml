@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="500dp"
+    android:padding="@dimen/item_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rez_de_chaussee" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/popup_page_titre_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_title_ticket"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="@+id/cardView2"
+        android:layout_marginLeft="@dimen/defaut_margin"
+        style="@style/TitleTextStyle" />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toTopOf="@+id/popup_page_titre_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/popup_page_description_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_description_title"
+        android:layout_marginTop="@dimen/defaut_margin"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_categorie_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_categorie_subtitle" />
+
+    <TextView
+        android:id="@+id/popup_page_description_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_description_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_description_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_description_title" />
+
+    <TextView
+        android:id="@+id/popup_page_niveau_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaut_margin"
+        android:text="@string/popup_page_niveau_title"
+        app:layout_constraintStart_toStartOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/popup_page_niveau_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_niveau_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_niveau_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_niveau_title" />
+
+    <TextView
+        android:id="@+id/popup_page_zone_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaut_margin"
+        android:layout_marginLeft="75dp"
+        android:text="@string/popup_page_zone_title"
+        app:layout_constraintStart_toEndOf="@+id/popup_page_niveau_title"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/popup_page_zone_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_zone_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_zone_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_zone_title" />
+
+    <TextView
+        android:id="@+id/popup_page_salle_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/popup_page_salle_title"
+        android:layout_marginTop="@dimen/defaut_margin"
+        app:layout_constraintStart_toEndOf="@+id/popup_page_zone_title"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/popup_page_salle_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_salle_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_salle_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_salle_title" />
+
+    <TextView
+        android:id="@+id/popup_page_categorie_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_categorie_title"
+        android:layout_marginTop="@dimen/defaut_margin"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_materiel_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_materiel_subtitle" />
+
+    <TextView
+        android:id="@+id/popup_page_categorie_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_categorie_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_categorie_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_categorie_title" />
+
+    <TextView
+        android:id="@+id/popup_page_materiel_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_materiel_title"
+        android:layout_marginTop="@dimen/defaut_margin"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_niveau_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_niveau_subtitle" />
+
+    <TextView
+        android:id="@+id/popup_page_materiel_subtitle"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_page_materiel_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_page_materiel_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_materiel_title" />
+
+    <View
+        android:id="@+id/view_separation"
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_page_description_subtitle" />
+
+    <ImageView
+        android:id="@+id/circle_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_circle"
+        android:tint="@color/YellowGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_separation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

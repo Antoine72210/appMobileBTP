@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Maintenance BTP</string>
+
+    <!-- Bottom Navigation Bar -->
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_ticket_item">Ajouter</string>
+
+
+    <!-- Page de d'accueil -->
+    <string name="home_page_title">Dernières demandes résolues</string>
+    <string name="collection_page">Ma Collection</string>
+    <string name="add_page_ticket">Ajouter une demande</string>
+    <string name="home_page_last_ticket">Dernières demandes</string>
+
+    <!-- Ticket customise -->
+    <string name="item_ticket_name">Nom de la demande</string>
+    <string name="item_ticket_description">Description de la demande</string>
+
+    <!-- Page d'ajout d'un ticket -->
+    <string name="add_page_name">Titre de la demande</string>
+    <string name="add_page_salle">Salle</string>
+    <string name="add_page_materiel">Matériel(s) défectueux</string>
+    <string name="add_page_description">Description du problème rencontré</string>
+
+    <string-array name="add_page_niveau_spinner_input">
+        <item>Rez-de-chaussé</item>
+        <item>Etage</item>
+    </string-array>
+
+    <string-array name="add_page_zone_spinner_input">
+        <item>Zone 1</item>
+        <item>Zone 2</item>
+        <item>Zone 3</item>
+        <item>Zone 4</item>
+        <item>Zone 5</item>
+    </string-array>
+
+    <string-array name="add_page_categorie_spinner_input">
+        <item>Menuiserie</item>
+        <item>Electricité</item>
+        <item>Informatique</item>
+        <item>Petit bricolage</item>
+        <item>Organisation</item>
+        <item>Plomberie</item>
+    </string-array>
+
+    <string name="add_page_confirm_button">Confirmer</string>
+    <string name="add_page_upload_button">Charger Image</string>
+
+    <!-- Fenêtre Pop-up détails -->
+    <string name="popup_page_title_ticket">Titre de la demande</string>
+    <string name="popup_page_salle_title">Salle</string>
+    <string name="popup_page_salle_subtitle">Salle 1</string>
+    <string name="popup_page_materiel_title">Materiel(s) défectueux</string>
+    <string name="popup_page_materiel_subtitle">PC Portable</string>
+    <string name="popup_page_niveau_title">Niveau</string>
+    <string name="popup_page_niveau_subtitle">Rez-de-chaussé</string>
+    <string name="popup_page_description_title">Description</string>
+    <string name="popup_page_description_subtitle">Petite description</string>
+    <string name="popup_page_zone_title">Zone</string>
+    <string name="popup_page_zone_subtitle">Zone 1</string>
+    <string name="popup_page_categorie_title">Categorie</string>
+    <string name="popup_page_categorie_subtitle">Informatique</string>
+
+</resources>
