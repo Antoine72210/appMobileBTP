@@ -6,16 +6,6 @@
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/collection_page"
-        android:title="@string/bottom_collection_item"
-        android:icon="@drawable/ic_collection"/>
-
-    <item
-        android:id="@+id/add_ticket_page"
-        android:title="@string/bottom_add_ticket_item"
-        android:icon="@drawable/ic_add"/>
-
-    <item
         android:id="@+id/login_page"
         android:title="@string/bottom_login_item"
         android:icon="@drawable/ic_profile"/>
